@@ -65,7 +65,7 @@ keys = [
 
 ]
 
-groups = [Group(i) for i in ['󰈹', '', '','', '','']]
+groups = [Group(i) for i in ['󰈹', '󰉋', '󰛸', '','󰓇']]
 
 for i, group in enumerate(groups):
     
@@ -123,7 +123,6 @@ screens = [
             [
                 widget.GroupBox(
                     border_width=10,
-                    background='#20262E', 
                     highlight_method='text',
                     block_highlight_text_color='#239D60',
                     #active='#239D60',
@@ -135,7 +134,7 @@ screens = [
                 widget.Spacer(),
                 
                 # time
-                widget.Clock(format="%I:%M", foreground='E96479',padding=6),
+                widget.Clock(format="%I:%M - %d %b", foreground='#FFFFDD',padding=6),
 
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
@@ -143,35 +142,36 @@ screens = [
 
 
                 # network
-                widget.TextBox("", fontsize=14, padding=6, foreground='EA5455'),
+                widget.TextBox("", fontsize=14, padding=6, foreground='#FFFFDD'),
                 widget.Wlan(
-                    foreground='EA5455',
+                    foreground='#FFFFDD',
                     padding=6,
                     interface='wlan0',
                 ),
 
                 # battery
-                widget.TextBox("󰁹", fontsize=14, padding=6, foreground='FFD460'),
+                widget.TextBox("󰁹", fontsize=14, padding=6, foreground='#FFFFDD'),
                 widget.Battery(
-                    foreground= 'FFD460',
+                    foreground= '#FFFFDD',
                     low_percentage= 0.2,
                     low_foreground= 'DF2E38',
                     format= '{percent:2.0%}',
                     padding= 6,
                     full_char= 'F',
+
+
                 ),
 
                 # volume 
-                widget.TextBox("", fontsize=14, padding=6, foreground='239D60'),
-                widget.Volume(foreground='239D60',padding=6,
-                              emoji_list = ['🔇', '🔈', '🔉', '🔊']
+                widget.TextBox("󰕾", fontsize=14, padding=6, foreground='#FFFFDD'),
+                widget.Volume(foreground='#FFFFDD',padding=6,
                 ),
 
             ],
             24,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
-            background='20262E',
+            background='#FD5E44',
         ),
     ),
 ]
