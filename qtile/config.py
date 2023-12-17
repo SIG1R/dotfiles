@@ -111,7 +111,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="Jet Brains bold", #sans
+    font="Jet Brains semi bold italic", #sans
     fontsize=12,
     padding=3,
 )
@@ -122,19 +122,28 @@ screens = [
         top=bar.Bar(
             [
                 widget.GroupBox(
-                    border_width=10,
-                    highlight_method='text',
-                    block_highlight_text_color='#239D60',
-                    #active='#239D60',
-                    inactive='#F5E9CF',
-                    padding= 6,
-                    fontsize= 15
+                    fontsize=16,
+                    borderwidth=3,
+                    highlight_method='block',
+                    active='#CAA9E0',
+                    block_highlight_text_color="#91B1F0",
+                    highlight_color='#4B427E',
+                    inactive='#282738',
+                    foreground='#4B427E',
+                    background='#353446',
+                    this_current_screen_border='#353446',
+                    this_screen_border='#353446',
+                    other_current_screen_border='#353446',
+                    other_screen_border='#353446',
+                    urgent_border='#353446',
+                    rounded=True,
+                    disable_drag=True,
                 ),
 
                 widget.Spacer(),
                 
                 # time
-                widget.Clock(format="%I:%M - %d %b", foreground='#FFFFDD',padding=6),
+                widget.Clock(format="%I:%M - %d %b", foreground='#fab387',padding=6),
 
                 # NB Systray is incompatible with Wayland, consider using StatusNotifier instead
                 # widget.StatusNotifier(),
@@ -142,17 +151,18 @@ screens = [
 
 
                 # network
-                widget.TextBox("", fontsize=14, padding=6, foreground='#FFFFDD'),
+                widget.TextBox("", fontsize=14, padding=6, foreground='#a6e3a1'),
                 widget.Wlan(
-                    foreground='#FFFFDD',
+                    foreground='#a6e3a1',
                     padding=6,
                     interface='wlan0',
+                    format='{essid}'
                 ),
 
                 # battery
-                widget.TextBox("󰁹", fontsize=14, padding=6, foreground='#FFFFDD'),
+                widget.TextBox("󱘖", fontsize=14, padding=6, foreground='#89dceb'),
                 widget.Battery(
-                    foreground= '#FFFFDD',
+                    foreground= '#89dceb',
                     low_percentage= 0.2,
                     low_foreground= 'DF2E38',
                     format= '{percent:2.0%}',
@@ -163,15 +173,19 @@ screens = [
                 ),
 
                 # volume 
-                widget.TextBox("󰕾", fontsize=14, padding=6, foreground='#FFFFDD'),
-                widget.Volume(foreground='#FFFFDD',padding=6,
+                
+                widget.TextBox("󰕾", fontsize=12, padding=4, foreground='#89b4fa'),
+                widget.Volume(foreground='#89b4fa',
+                              padding=2,
                 ),
+
+
 
             ],
             24,
             # border_width=[2, 0, 2, 0],  # Draw top and bottom borders
             # border_color=["ff00ff", "000000", "ff00ff", "000000"]  # Borders are magenta
-            background='#FD5E44',
+            background='#2E3440',
         ),
     ),
 ]
