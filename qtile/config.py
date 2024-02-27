@@ -6,7 +6,7 @@ from libqtile.utils import guess_terminal
 from os import path
 import subprocess
 
-qtile_path = path.join(path.expanduser('~'), '.config', 'qtile', 'autostart.sh')
+qtile_path = path.join(path.expanduser('~'), '.config', 'qtile', 'scripts','autostart.sh')
 
 subprocess.call(['sh', qtile_path])
 mod = "mod4"
@@ -62,6 +62,7 @@ keys = [
     Key([], 'XF86MonBrightnessDown', lazy.spawn('brightnessctl s 5%-')),
     Key([], 'XF86MonBrightnessUp', lazy.spawn('brightnessctl s 5%+')),
     Key([mod], 'r', lazy.spawn('rofi -show drun')),
+    Key([mod], 'l', lazy.spawn('xlock -mode euler2d -geometry 1x1-1-1')),
 
 ]
 

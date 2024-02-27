@@ -1,0 +1,92 @@
+Visual Studio Code (1.85.2, undefined, desktop)
+Jupyter Extension Version: 2023.11.1100101639.
+Python Extension Version: 2023.22.1.
+Pylance Extension Version: 2023.12.1.
+Platform: linux (x64).
+No workspace folder opened.
+09:37:39.494 [info] Start refreshing Kernel Picker (1706366259494)
+09:37:39.504 [info] Using Pylance
+09:37:40.536 [warn] No interpreter with path ~/miniconda3/envs/Speech_Clone/bin/python found in Python API, will convert Uri path to string as Id ~/miniconda3/envs/Speech_Clone/bin/python
+09:37:40.538 [warn] No interpreter with path ~/miniconda3/envs/DeFi/bin/python found in Python API, will convert Uri path to string as Id ~/miniconda3/envs/DeFi/bin/python
+09:37:40.544 [warn] No interpreter with path ~/miniconda3/envs/MachineLearning/bin/python found in Python API, will convert Uri path to string as Id ~/miniconda3/envs/MachineLearning/bin/python
+09:37:42.334 [info] Start refreshing Interpreter Kernel Picker
+09:37:43.343 [warn] Failed to get activated env vars for /bin/python in 1214ms
+09:37:43.394 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+09:37:43.617 [info] Process Execution: /bin/python -m pip list
+09:37:46.030 [warn] No interpreter for Pylance for Notebook URI "~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb"
+09:37:46.702 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0ef5a4b19993c8d8d96d33b94c5a08d111cf7aa8c085b1fa0c00e5c9846e1135c.~/miniconda3/envs/MachineLearning/python.~/miniconda3/envs/MachineLearning/python.-m#ipykernel_launcher  (Python Path: ~/miniconda3/envs/MachineLearning/bin/python, Conda, MachineLearning, 3.11.7) for '~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb' (disableUI=true)
+09:37:48.278 [info] End refreshing Kernel Picker (1706366259494)
+09:37:49.766 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python -m pip list
+09:37:49.846 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+09:37:49.879 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-355086Csh3kYPIFikt.json
+    > cwd: ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression
+09:37:51.451 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+09:37:51.958 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2023.11.1100101639-linux-x64/pythonFiles/printJupyterDataDir.py
+09:39:59.872 [info] Handle Execution of Cells 2,6,9,11,13,17,20,23,29,31,33,35,37,40,41,44,46,48,49,51,53,57,65,67,69,70,71,75,77,80,81,82,83,84,88,90 for ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:40:00.176 [info] Kernel acknowledged execution of cell 2 @ 1706366400170
+09:40:02.054 [info] End cell 2 execution after 1.882s, completed @ 1706366402052, started @ 1706366400170
+09:40:02.074 [info] Kernel acknowledged execution of cell 6 @ 1706366402073
+09:40:02.394 [info] End cell 6 execution after 0.321s, completed @ 1706366402394, started @ 1706366402073
+09:40:02.412 [info] Kernel acknowledged execution of cell 9 @ 1706366402411
+09:40:02.494 [info] End cell 9 execution after 0.082s, completed @ 1706366402493, started @ 1706366402411
+09:40:02.512 [info] Kernel acknowledged execution of cell 11 @ 1706366402512
+09:40:02.518 [info] End cell 11 execution after 0.006s, completed @ 1706366402518, started @ 1706366402512
+09:40:02.532 [info] Kernel acknowledged execution of cell 13 @ 1706366402531
+09:40:02.561 [info] End cell 13 execution after 0.029s, completed @ 1706366402560, started @ 1706366402531
+09:40:02.582 [info] Kernel acknowledged execution of cell 17 @ 1706366402581
+09:40:07.934 [info] End cell 17 execution after 5.35s, completed @ 1706366407931, started @ 1706366402581
+09:40:07.983 [info] Kernel acknowledged execution of cell 20 @ 1706366407981
+09:40:11.017 [info] End cell 20 execution after 3.034s, completed @ 1706366411015, started @ 1706366407981
+09:40:11.093 [info] Kernel acknowledged execution of cell 23 @ 1706366411092
+09:40:11.603 [info] End cell 23 execution after 0.51s, completed @ 1706366411602, started @ 1706366411092
+09:40:11.620 [info] Kernel acknowledged execution of cell 29 @ 1706366411620
+09:40:12.146 [info] End cell 29 execution after 0.524s, completed @ 1706366412144, started @ 1706366411620
+09:40:12.160 [info] Kernel acknowledged execution of cell 31 @ 1706366412159
+09:40:12.192 [info] End cell 31 execution after 0.032s, completed @ 1706366412191, started @ 1706366412159
+09:40:12.202 [info] Kernel acknowledged execution of cell 33 @ 1706366412202
+09:40:12.251 [info] End cell 33 execution after 0.049s, completed @ 1706366412251, started @ 1706366412202
+09:40:12.268 [info] Kernel acknowledged execution of cell 35 @ 1706366412268
+09:40:12.275 [info] End cell 35 execution after 0.007s, completed @ 1706366412275, started @ 1706366412268
+09:40:12.289 [info] Kernel acknowledged execution of cell 37 @ 1706366412288
+09:40:12.499 [info] End cell 37 execution after 0.21s, completed @ 1706366412498, started @ 1706366412288
+09:40:12.518 [info] Kernel acknowledged execution of cell 40 @ 1706366412518
+09:40:12.541 [info] End cell 40 execution after 0.023s, completed @ 1706366412541, started @ 1706366412518
+09:40:12.554 [info] Kernel acknowledged execution of cell 41 @ 1706366412554
+09:40:12.581 [info] End cell 41 execution after 0.026s, completed @ 1706366412580, started @ 1706366412554
+09:40:12.591 [info] Kernel acknowledged execution of cell 44 @ 1706366412590
+09:40:12.613 [info] End cell 44 execution after 0.022s, completed @ 1706366412612, started @ 1706366412590
+09:40:12.626 [info] Kernel acknowledged execution of cell 46 @ 1706366412626
+09:40:12.652 [info] End cell 46 execution after 0.025s, completed @ 1706366412651, started @ 1706366412626
+09:40:12.666 [info] Kernel acknowledged execution of cell 48 @ 1706366412666
+09:40:12.696 [info] End cell 48 execution after 0.029s, completed @ 1706366412695, started @ 1706366412666
+09:40:12.706 [info] Kernel acknowledged execution of cell 49 @ 1706366412706
+09:40:12.897 [info] End cell 49 execution after 0.19s, completed @ 1706366412896, started @ 1706366412706
+09:40:12.922 [info] Kernel acknowledged execution of cell 51 @ 1706366412921
+09:40:12.933 [info] End cell 51 execution after 0.011s, completed @ 1706366412932, started @ 1706366412921
+09:40:12.954 [info] Kernel acknowledged execution of cell 53 @ 1706366412954
+09:40:13.114 [info] End cell 53 execution after 0.159s, completed @ 1706366413113, started @ 1706366412954
+09:40:13.126 [info] Kernel acknowledged execution of cell 57 @ 1706366413125
+09:40:13.135 [info] End cell 57 execution after 0.009s, completed @ 1706366413134, started @ 1706366413125
+09:40:13.156 [info] Kernel acknowledged execution of cell 65 @ 1706366413155
+09:40:15.498 [info] End cell 65 execution after 2.342s, completed @ 1706366415497, started @ 1706366413155
+09:40:15.498 [warn] Cancel all remaining cells due to cancellation or failure in execution
+09:40:15.499 [info] End cell 67 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.500 [info] End cell 69 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.500 [info] End cell 70 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.500 [info] End cell 71 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.500 [info] End cell 75 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.501 [info] End cell 77 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.501 [info] End cell 80 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.501 [info] End cell 81 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.502 [info] End cell 82 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.502 [info] End cell 83 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.502 [info] End cell 84 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.502 [info] End cell 88 execution after 0s, completed @ undefined, started @ undefined
+09:40:15.503 [info] End cell 90 execution after 0s, completed @ undefined, started @ undefined
+09:41:34.698 [info] Disposing HostJupyterExecution
+09:41:34.699 [info] Dispose Kernel '~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb' associated with '~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb'
+09:41:34.701 [info] Dispose Kernel process 355456.
+09:41:34.776 [info] Disposing HostJupyterExecution

@@ -1,0 +1,38 @@
+2024-01-27 09:37:40.724 [info] Experiment 'pythonRecommendTensorboardExtcf' is active
+2024-01-27 09:37:40.724 [info] Experiment 'pythonREPLSmartSend' is active
+2024-01-27 09:37:40.724 [info] Experiment 'pythonSurveyNotification' is active
+2024-01-27 09:37:40.724 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-01-27 09:37:40.724 [info] Experiment 'pythonTestAdapter' is active
+2024-01-27 09:37:40.724 [info] Test server listening.
+2024-01-27 09:37:40.724 [info] > conda info --json
+2024-01-27 09:37:40.763 [info] > ~/.conda/bin/conda info --json
+2024-01-27 09:37:40.817 [info] > ~/miniconda3/bin/conda info --json
+2024-01-27 09:37:40.828 [info] Found: /bin/python --> /bin/python3.11
+2024-01-27 09:37:40.832 [info] Found: /bin/python3 --> /bin/python3.11
+2024-01-27 09:37:40.833 [info] Found: /bin/python3.11 --> /bin/python3.11
+2024-01-27 09:37:41.582 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:41.617 [info] Send text to terminal: echo /sbin/bash
+2024-01-27 09:37:41.636 [info] Found: /sbin/python --> /sbin/python3.11
+2024-01-27 09:37:41.658 [info] Found: /sbin/python3 --> /sbin/python3.11
+2024-01-27 09:37:41.749 [info] Found: /sbin/python3.11 --> /sbin/python3.11
+2024-01-27 09:37:41.821 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2024-01-27 09:37:41.822 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2024-01-27 09:37:41.823 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2024-01-27 09:37:41.912 [info] Found: /usr/sbin/python --> /usr/sbin/python3.11
+2024-01-27 09:37:41.913 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.11
+2024-01-27 09:37:41.913 [info] Found: /usr/sbin/python3.11 --> /usr/sbin/python3.11
+2024-01-27 09:37:42.053 [info] > /sbin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:42.068 [info] Python interpreter path: /bin/python
+2024-01-27 09:37:42.262 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:42.416 [info] > /usr/sbin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:44.701 [info] Shell integration is not working for bash
+2024-01-27 09:37:44.729 [warning] Shell integration is not active, environment activated maybe overriden by the shell.
+2024-01-27 09:37:45.843 [info] > ~/miniconda3/envs/MachineLearning/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:45.875 [info] > ~/miniconda3/envs/DeFi/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:45.980 [info] Starting Pylance language server.
+2024-01-27 09:37:46.137 [info] > ~/miniconda3/envs/Speech_Clone/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:46.197 [info] > ~/miniconda3/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-27 09:37:46.701 [info] > ~/miniconda3/bin/conda run -n MachineLearning --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/printEnvVariables.py
+2024-01-27 09:37:46.701 [info] shell: bash
+2024-01-27 09:37:46.787 [info] > ~/miniconda3/bin/conda run -n MachineLearning --no-capture-output python ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/printEnvVariables.py
+2024-01-27 09:37:46.787 [info] shell: bash

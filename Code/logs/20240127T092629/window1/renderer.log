@@ -1,0 +1,13 @@
+2024-01-27 09:26:31.340 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-01-27 09:26:31.962 [info] Started local extension host with pid 341180.
+2024-01-27 09:26:32.443 [info] Started initializing default profile extensions in extensions installation folder. file:///home/sebastian/.vscode/extensions
+2024-01-27 09:26:33.198 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/sebastian/.vscode/extensions
+2024-01-27 09:26:36.605 [info] [perf] Render performance baseline is 66ms
+2024-01-27 09:29:35.781 [error] Cannot read properties of undefined (reading 'data'): TypeError: Cannot read properties of undefined (reading 'data')
+	at /home/sebastian/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist/extension.bundle.js:1:139734
+	at _0x1be708 (/home/sebastian/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist/extension.bundle.js:1:152918)
+	at async ve.provideCompletionItems (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:53055)
+2024-01-27 09:29:40.170 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at q.getLineContent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:730:4396)
+    at o.update (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:681:81713)
+    at P.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:744:53935)

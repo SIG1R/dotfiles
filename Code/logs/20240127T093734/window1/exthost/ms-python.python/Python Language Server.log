@@ -1,0 +1,20 @@
+2024-01-27 09:37:43.731 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2024-01-27 09:37:45.919 [info] [Info  - 9:37:45 AM] (355298) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2024-01-27 09:37:45.927 [info] [Info  - 9:37:45 AM] (355298) Server root directory: /home/sebastian/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2024-01-27 09:37:46.055 [info] [Info  - 9:37:46 AM] (355298) Starting service instance "<default>"
+2024-01-27 09:37:46.595 [info] [Info  - 9:37:46 AM] (355298) Setting environmentName for service "<default>": "3.11.6 (global)"
+2024-01-27 09:37:46.899 [info] [Info  - 9:37:46 AM] (355298) No source files found.
+2024-01-27 09:37:53.564 [info] [Info  - 9:37:53 AM] (355298) [BG(1)] Long operation: analyzing: /home/sebastian/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb#pylancePrefixCell.py (3158ms)
+2024-01-27 09:41:16.974 [info] [Error - 9:41:16 AM] Server process exited with code 0.
+2024-01-27 09:41:17.539 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2024-01-27 09:41:18.962 [info] [Info  - 9:41:18 AM] (359126) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2024-01-27 09:41:18.962 [info] [Info  - 9:41:18 AM] (359126) Server root directory: /home/sebastian/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2024-01-27 09:41:20.624 [info] [Info  - 9:41:20 AM] (359126) Starting service instance "<default>"
+2024-01-27 09:41:20.696 [info] [Info  - 9:41:20 AM] (359126) Setting pythonPath for service "<default>": "/home/sebastian/miniconda3/envs/MachineLearning/bin/python"
+2024-01-27 09:41:20.696 [info] [Info  - 9:41:20 AM] (359126) Setting environmentName for service "<default>": "3.11.6 (global)"
+2024-01-27 09:41:20.837 [info] [Info  - 9:41:20 AM] (359126) Assuming Python version 3.11
+2024-01-27 09:41:21.065 [info] [Info  - 9:41:21 AM] (359126) No source files found.
+2024-01-27 09:41:24.394 [info] [Info  - 9:41:24 AM] (359126) [BG(1)] Long operation: getSemanticTokens full at /home/sebastian/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb#W6sZmlsZQ==.py (2300ms)
+2024-01-27 09:41:27.747 [info] [Info  - 9:41:27 AM] (359126) [BG(1)] Long operation: checking: /home/sebastian/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb#Y156sZmlsZQ==.py (3223ms)
+2024-01-27 09:41:27.748 [info] [Info  - 9:41:27 AM] (359126) [BG(1)] Long operation: analyzing: /home/sebastian/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb#Y156sZmlsZQ==.py (3346ms)
+2024-01-27 09:41:30.458 [info] [Info  - 9:41:30 AM] (359126) [BG(1)] Long operation: analyzing: /home/sebastian/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb#pylancePrefixCell.py (5794ms)

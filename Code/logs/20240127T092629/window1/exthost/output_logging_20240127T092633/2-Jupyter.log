@@ -1,0 +1,80 @@
+Visual Studio Code (1.85.2, undefined, desktop)
+Jupyter Extension Version: 2023.11.1100101639.
+Python Extension not installed.
+Pylance Extension not installed.
+Platform: linux (x64).
+No workspace folder opened.
+09:28:04.755 [info] Start refreshing Kernel Picker (1706365684754)
+09:28:04.816 [info] Not using Pylance
+09:28:04.925 [info] End refreshing Kernel Picker (1706365684754)
+09:28:14.475 [info] Using Pylance
+09:28:14.477 [warn] Disposing old controller startUsingLocalKernelSpec:'.defi.~/miniconda3/envs/DeFi/python./.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+09:28:14.480 [warn] Disposing old controller startUsingLocalKernelSpec:'.defi.~/miniconda3/envs/DeFi/python./.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+09:28:14.481 [warn] Disposing old controller startUsingLocalKernelSpec:'.machinelearning.~/miniconda3/envs/MachineLearning/python./.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+09:28:14.481 [warn] Disposing old controller startUsingLocalKernelSpec:'.machinelearning.~/miniconda3/envs/MachineLearning/python./.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+09:28:14.481 [warn] Disposing old controller startUsingLocalKernelSpec:'.python3./python./.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+09:28:14.482 [warn] Disposing old controller startUsingLocalKernelSpec:'.python3./python./.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+09:28:14.482 [warn] Disposing old controller startUsingLocalKernelSpec:'.speech_clone.~/miniconda3/envs/Speech_Clone/python./.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+09:28:14.482 [warn] Disposing old controller startUsingLocalKernelSpec:'.speech_clone.~/miniconda3/envs/Speech_Clone/python./.-m#ipykernel_launcher (Interactive)' for view = 'interactive'
+09:28:14.489 [info] End refreshing Kernel Picker (1706365684754)
+09:28:15.851 [warn] No interpreter with path ~/miniconda3/envs/DeFi/bin/python found in Python API, will convert Uri path to string as Id ~/miniconda3/envs/DeFi/bin/python
+09:28:15.855 [warn] No interpreter with path ~/miniconda3/envs/MachineLearning/bin/python found in Python API, will convert Uri path to string as Id ~/miniconda3/envs/MachineLearning/bin/python
+09:28:15.857 [warn] No interpreter with path ~/miniconda3/envs/Speech_Clone/bin/python found in Python API, will convert Uri path to string as Id ~/miniconda3/envs/Speech_Clone/bin/python
+09:28:20.068 [warn] Failed to get activated env vars for /bin/python in 164ms
+09:28:20.101 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+09:28:20.288 [info] Process Execution: /bin/python -m pip list
+09:28:20.818 [info] End refreshing Kernel Picker (1706365684754)
+09:28:22.466 [warn] No interpreter for Pylance for Notebook URI "~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb"
+09:28:34.120 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0ef5a4b19993c8d8d96d33b94c5a08d111cf7aa8c085b1fa0c00e5c9846e1135c.~/miniconda3/envs/MachineLearning/python.~/miniconda3/envs/MachineLearning/python.-m#ipykernel_launcher  (Python Path: ~/miniconda3/envs/MachineLearning/bin/python, Conda, MachineLearning, 3.11.7) for '~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb' (disableUI=true)
+09:28:36.941 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python -m pip list
+09:28:36.981 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+09:28:37.013 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python -m ipykernel_launcher --f=~/.local/share/jupyter/runtime/kernel-v2-3411807QA87K5FbDvU.json
+    > cwd: ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression
+09:28:38.968 [warn] StdErr from Kernel Process 0.01s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+09:28:39.950 [info] Process Execution: ~/miniconda3/envs/MachineLearning/bin/python ~/.vscode/extensions/ms-toolsai.jupyter-2023.11.1100101639-linux-x64/pythonFiles/printJupyterDataDir.py
+09:29:07.211 [info] Handle Execution of Cells 16 for ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:29:07.476 [info] Kernel acknowledged execution of cell 16 @ 1706365747471
+09:29:07.506 [info] End cell 16 execution after 0.032s, completed @ 1706365747503, started @ 1706365747471
+09:29:15.762 [info] Disposing request as the cell (-1) was deleted ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:29:52.439 [info] Handle Execution of Cells 17 for ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:29:52.460 [info] Kernel acknowledged execution of cell 17 @ 1706365792459
+09:29:52.505 [info] End cell 17 execution after 0.046s, completed @ 1706365792505, started @ 1706365792459
+09:29:55.853 [warn] Timeout (after 20000ms) waiting to inspect code '''ArithmeticError'
+09:29:56.547 [warn] Timeout (after 20000ms) waiting to inspect code ''''ArithmeticError'
+09:29:58.134 [warn] Timeout (after 20000ms) waiting to inspect code ''''issubclass'
+09:29:58.158 [warn] Timeout (after 20000ms) waiting to inspect code ''''in'
+09:29:58.278 [warn] Timeout (after 20000ms) waiting to inspect code ''''%connect_info'
+09:29:58.493 [info] Starting debugging with mode 0
+09:30:00.532 [info] Handle Execution of Cells 17 for ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:30:00.553 [info] Kernel acknowledged execution of cell 17 @ 1706365800552
+09:30:00.596 [info] End cell 17 execution after 0.043s, completed @ 1706365800595, started @ 1706365800552
+09:30:00.981 [info] Ending debug session 27679765-cee3-402e-bac3-74ddf5c79390
+09:30:00.987 [warn] StdErr from Kernel Process [IPKernelApp] ERROR | Exception in control handler:
+Traceback (most recent call last):
+  File "~/miniconda3/envs/MachineLearning/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 340, in process_control
+    await result
+  File "~/miniconda3/envs/MachineLearning/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 978, in debug_request
+    reply_content = await reply_content
+                    ^^^^^^^^^^^^^^^^^^^
+  File "~/miniconda3/envs/MachineLearning/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 503, in do_debug_request
+    return await self.debugger.process_request(msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "~/miniconda3/envs/MachineLearning/lib/python3.11/site-packages/ipykernel/debugger.py", line 737, in process_request
+    self.stop()
+  File "~/miniconda3/envs/MachineLearning/lib/python3.11/site-packages/ipykernel/debugger.py", line 447, in stop
+    self.debugpy_client.disconnect_tcp_socket()
+  File "~/miniconda3/envs/MachineLearning/lib/python3.11/site-packages/ipykernel/debugger.py", line 280, in disconnect_tcp_socket
+    self.debugpy_stream.socket.disconnect(self._get_endpoint())
+  File "zmq/backend/cython/socket.pyx", line 664, in zmq.backend.cython.socket.Socket.disconnect
+zmq.error.ZMQError: No such file or directory
+09:30:03.036 [info] Ending debug session 27679765-cee3-402e-bac3-74ddf5c79390
+09:30:03.036 [info] Ending debug session 27679765-cee3-402e-bac3-74ddf5c79390
+09:30:12.590 [info] Disposing request as the cell (-1) was deleted ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:30:12.591 [info] Disposing request as the cell (-1) was deleted ~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb
+09:31:16.025 [info] Disposing HostJupyterExecution
+09:31:16.029 [info] Dispose Kernel '~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb' associated with '~/Documents/University/Semesters/Semester 5/Machine Learning/Task/Logistic Regression/regresion_logistica_better.ipynb'
+09:31:16.081 [info] Dispose Kernel process 343752.
+09:31:16.145 [info] Disposing HostJupyterExecution

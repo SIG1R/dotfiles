@@ -1,0 +1,7 @@
+2024-01-27 09:41:13.989 [info] Getting Manifest... yzhang.markdown-all-in-one
+2024-01-27 09:41:14.044 [info] Installing extension: yzhang.markdown-all-in-one
+2024-01-27 09:41:15.707 [warning] Extension signature verification failed with error 'UnknownError': yzhang.markdown-all-in-one
+2024-01-27 09:41:15.864 [info] Extracted extension to file:///home/sebastian/.vscode/extensions/yzhang.markdown-all-in-one-3.6.2: yzhang.markdown-all-in-one
+2024-01-27 09:41:15.876 [info] Renamed to /home/sebastian/.vscode/extensions/yzhang.markdown-all-in-one-3.6.2
+2024-01-27 09:41:15.886 [info] Extracting extension completed. yzhang.markdown-all-in-one
+2024-01-27 09:41:15.917 [info] Extension installed successfully: yzhang.markdown-all-in-one
