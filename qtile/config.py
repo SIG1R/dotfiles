@@ -66,7 +66,7 @@ keys = [
 
 ]
 
-groups = [Group(i) for i in ['󰈹', '󰉋', '󰛸', '','󰓇']]
+groups = [Group(i) for i in ['󰈹', '󰉋', '', '󰛸', '󰒋','󰓇']]
 
 for i, group in enumerate(groups):
     
@@ -112,7 +112,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="Jet Brains semi bold italic", #sans
+    font="Jet Brains semibold", #sans
     fontsize=12,
     padding=3,
 )
